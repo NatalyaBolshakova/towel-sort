@@ -12,7 +12,7 @@ module.exports = function towelSort (matrix) {
   for (let i = 0; i < matrix.length; i++){
     count = matrix[i].length
     
-    for (let j = 0; j < matrix[0].length; j++){
+    for (let j = 0; j < matrix[i].length; j++){
       
         if (i == 0 || (i % 2 == 0)){
         arrR.push(matrix[i][j]);
